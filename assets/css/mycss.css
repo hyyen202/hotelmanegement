@@ -1,0 +1,39 @@
+.content-1{
+    white-space: nowrap; /* Ngăn ngắt dòng */
+    overflow: hidden; /* Ẩn nội dung bị tràn ra ngoài khung */
+    text-overflow: ellipsis; /* Hiển thị dấu ba chấm */
+    max-width: 400px; /* Điều chỉnh độ rộng tối đa của phần hiển thị */
+}
+.content-2{
+    white-space: nowrap; /* Ngăn ngắt dòng */
+    overflow: hidden; /* Ẩn nội dung bị tràn ra ngoài khung */
+    text-overflow: ellipsis; /* Hiển thị dấu ba chấm */
+    max-height: 1000px; 
+    max-width: 300px;
+    
+}
+.wallpaper{
+   
+    height: 35rem;
+}
+.list-group-item{
+    padding-left: 3%;
+    --bs-list-group-item-padding-x: 4rem;
+    
+}
+.list-group-label {
+    display: flex;
+    justify-content: center;
+    background-color: #f8f9fa;
+    border: none;
+    color: #6c757d;
+    font-size: 1.2rem;
+    margin:auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.first-letter-bold {
+    font-size: 1.8em; /* Điều chỉnh kích thước phù hợp */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
